@@ -1,0 +1,33 @@
+{
+    "config": {
+        "server_url": "localhost",
+        "db_host": "localhost",
+        "db_port": 27017,
+        "db_name": "videoEditor",
+        "public_file_path": "/public",
+        "app_port": 8000,
+        "server_enabled": 1,
+        "file_life_in_hours": 1
+    },
+    "mail_config": {
+        "admin_email": "veselovd@bk.ru",
+        "mail_server": "localhost",
+        "mail_pass": "test"
+    },
+    "download_config": {
+        "download_file_path": "public/downloads",
+        "PYTube_driver_priority": 1,
+        "YTdl_driver_priority": 0
+    },
+    "search_config": {
+        "PYTube_driver_priority": 1,
+        "YTdl_driver_priority": 0,
+        "official_driver_priority": 2,
+        "path_to_chromedriver": "chromedriver.exe",
+        "youtube_api_key": "AIzaSyC94M5ZB4ZNRSHb_mouD0-j48aqjocIZbI"
+    },
+    "project_config": {
+        "project_file_path": "public/projects/",
+        "project_format": ".7z"
+    }
+}
